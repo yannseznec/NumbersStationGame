@@ -1,8 +1,4 @@
-#N canvas 366 194 450 300 12;
-#X obj 115 266 ys.windows;
-#X obj 229 261 dac~;
-#X obj 273 259 granular_main 1 numbers;
-#X obj 129 218 catch~ 1_grainoutL;
-#X obj 280 213 catch~ 1_grainoutR;
-#X connect 3 0 1 0;
-#X connect 4 0 1 1;
+#N canvas 517 49 779 705 12;
+#X obj 273 475 granular_main 1 numbers;
+#X obj 47 537 cnv 15 500 500 main_canvas main_canvas_rcv empty 20 12
+0 14 -233017 -66577 0;
